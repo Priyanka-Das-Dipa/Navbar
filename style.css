@@ -108,7 +108,14 @@ li{
 /* Service section */
 
 .service{
+    background-image: url('./images/back_3.avif');
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    padding-top: 230px;
 }
 .service-title h1{
     text-align: center;
@@ -119,7 +126,6 @@ li{
 }
 .service-title p{
     padding: 5px ;
-    /* margin-bottom: 10px; */
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -130,14 +136,56 @@ li{
     padding: 50px 50px;
     gap: 80px;
     text-align: center;
-    /* align-items: center; */
 
+}
+.menu p{
+    margin-bottom: 15px;
 }
 .box{
     margin-bottom: 30px;
 }
 .box-btn{
+    border: none;
+    border-radius: 5px;
     width: 100px;
     height: 35px;
+    background-color:rgb(171 142 198) ;
+    color: white;
 }
+
+/* Footer Section */
+.footer{
+    height: 70vh;
+    background-color: rgb(18 18 18);
+    display: flex;
+    justify-content: space-around;
+    padding: 250px;
+    color: white;
+
+}
+.footer-box{
+    align-items: center;
+    padding: 15px;
+}
+.footer-box h4{
+    font-size: larger;
+    margin-bottom: 15px;
+
+}
+.footer-box p{
+    font-size: large;
     
+}
+.footer-box ol{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-box input{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
