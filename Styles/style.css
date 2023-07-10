@@ -29,7 +29,7 @@
 }
 /* Banner Section */
 .banner{
-    background-image: url('./images/back_2.jpg');
+    background-image: url('../images/back_2.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ li{
 /* Service section */
 
 .service{
-    background-image: url('./images/back_3.avif');
+    background-image: url('../images/back_3.avif');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;

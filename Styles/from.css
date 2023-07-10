@@ -1,0 +1,61 @@
+/* background section */
+*{
+    margin: 0px;
+}
+.container{
+    background-image: url('../images/back_2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container-box{
+    width: 90%;
+    max-width: 450px;
+    position: center;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 2px solid #a69393;
+    border-radius: 20px;
+    padding: 70px 65px 70px;
+    text-align: center;
+}
+.form-box h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.from-details input{
+    width: 220px;
+    height: 30px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+#btn{
+    width: 90px;
+    height: 32px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(113, 81, 142);
+    border-radius: 5px;
+    border: 2px solid rgb(71, 30, 107);
+    padding: 5px 10px 5px;
+}
+#btn a{
+    color: white;
+    text-decoration: none;
+}
+.from-details a{
+    color: black;
+}
+#checkbox{
+    width: 15px;
+    height: 15px;
+
+}
