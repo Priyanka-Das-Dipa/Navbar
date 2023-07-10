@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bona+Nova:ital@1&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d80a671ac0.js" crossorigin="anonymous"></script>
     </head>
+
 <body>
     <header>
         <div class="header">
@@ -22,7 +24,11 @@
                         <li><a href="">About</a></li>
                         <li><a href="">Service</a></li>
                         <li><a href="">Address</a></li>
-                        <li><a href="login.html">Login</a></li>
+                        <li><a href="login.html">Login</a>
+                            <ul class="dropdown">
+                                <li><a href="register.html">Registration</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -34,10 +40,10 @@
             <p>
                 The Earth is the third planet from the sun. It is also called the blue plane. <br> The Earth is the only planet that supports life because of the <br>  availability of air, water, and  gases needed for survival.<br> The climate of the Earth is mild.
             </p>
-            <button class="btn">
+            <button class="btn"><i class="fa-solid fa-id-badge"></i>
                 Contact Us
             </button>
-            <button class="btn">
+            <button class="btn"><i class="fa-solid fa-phone"></i>
                 Call Us
             </button>
             </div>
@@ -99,7 +105,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class="footer-section">
             <div class="footer"> 
                 <div class="footer-box">
                     <h4>Help Center</h4>
@@ -125,6 +131,7 @@
                     <button class="box-btn">Subscribe</button>
                 </div>
             </div>
+            <hr>
             <div class="copyright">
                 <p>
                     <small>&COPY;</small> Copyright 2012 - 2023 | Website Builder by Beautiful World | All rights reserved 
